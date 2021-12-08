@@ -1,6 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import { fauna } from "./../../services/fauna";
 import { stripe } from "./../../services/stripe";
+
 import { query as q } from "faunadb";
 import { getSession } from "next-auth/client";
 import { NextApiRequest, NextApiResponse } from "next";
